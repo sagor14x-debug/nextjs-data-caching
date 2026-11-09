@@ -1,0 +1,85 @@
+
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 18",
+      "category": "Smartphone",
+      "price": 799,
+      "brand": "Apple",
+      "stock": 15,
+      "rating": 4.8,
+      "description": "The iPhone 16 features a powerful A18 chip, an advanced camera system, and a beautiful Super Retina XDR display."
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S25",
+      "category": "Smartphone",
+      "price": 899,
+      "brand": "Samsung",
+      "stock": 20,
+      "rating": 4.7,
+      "description": "The Samsung Galaxy S25 offers a powerful processor, an advanced camera, and a stunning AMOLED display."
+    },
+    {
+      "id": 3,
+      "name": "MacBook Air M4",
+      "category": "Laptop",
+      "price": 1099,
+      "brand": "Apple",
+      "stock": 10,
+      "rating": 4.9,
+      "description": "The MacBook Air M4 is a lightweight laptop with excellent performance, long battery life, and a beautiful Retina display."
+    },
+    {
+      "id": 4,
+      "name": "Dell XPS 15",
+      "category": "Laptop",
+      "price": 1499,
+      "brand": "Dell",
+      "stock": 8,
+      "rating": 4.6,
+      "description": "The Dell XPS 15 is a premium laptop designed for productivity, programming, creative work, and entertainment."
+    },
+    {
+      "id": 5,
+      "name": "Sony WH-1000XM5",
+      "category": "Headphones",
+      "price": 349,
+      "brand": "Sony",
+      "stock": 25,
+      "rating": 4.8,
+      "description": "Sony WH-1000XM5 headphones provide excellent noise cancellation, premium sound quality, and comfortable wireless listening."
+    },
+    {
+      "id": 6,
+      "name": "Logitech MX Master 3S",
+      "category": "Mouse",
+      "price": 99,
+      "brand": "Logitech",
+      "stock": 30,
+      "rating": 4.7,
+      "description": "The Logitech MX Master 3S is an advanced wireless mouse with customizable buttons, precise tracking, and a comfortable design."
+    },
+    {
+      "id": 7,
+      "name": "iPad Air M3",
+      "category": "Tablet",
+      "price": 599,
+      "brand": "Apple",
+      "stock": 12,
+      "rating": 4.8,
+      "description": "The iPad Air M3 delivers powerful performance, a Liquid Retina display, and support for creative and productivity tasks."
+    },
+    {
+      "id": 8,
+      "name": "Apple Watch Series 10",
+      "category": "Smartwatch",
+      "price": 399,
+      "brand": "Apple",
+      "stock": 18,
+      "rating": 4.6,
+      "description": "The Apple Watch Series 10 features a stylish design, health tracking tools, fitness features, and useful smart notifications."
+    }
+  ]
+}
