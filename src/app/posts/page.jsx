@@ -1,4 +1,5 @@
 import React from "react";
+import PostCard from "../components/PostCard";
 
 /*
  *GET:
@@ -14,7 +15,7 @@ const getPosts = async () => {
 
 
 const getPosts3 = async () => {
-  const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+  const res = await fetch("https://jsonplaceholder.typicode.com/posts",);
 
 
   if (!res.ok) {
@@ -57,6 +58,11 @@ const PostPage = async () => {
   return (
     <div>
       <h2>Hello POST: {posts.length} </h2>
+      <div className="grid grid-cols-3 gap-4">
+        {
+          posts.map(post => <PostCard key={post.id} post={post}></PostCard> )
+        }
+      </div>
     </div>
   );
 };
