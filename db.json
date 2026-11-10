@@ -1,4 +1,3 @@
-
 {
   "products": [
     {
@@ -9,7 +8,7 @@
       "brand": "Apple",
       "stock": 15,
       "rating": 4.8,
-      "description": "The iPhone 16 features a powerful A18 chip, an advanced camera system, and a beautiful Super Retina XDR display."
+      "description": "The iPhone 18 features a powerful processor, an advanced camera system, and a beautiful Super Retina XDR display."
     },
     {
       "id": 2,
@@ -80,6 +79,128 @@
       "stock": 18,
       "rating": 4.6,
       "description": "The Apple Watch Series 10 features a stylish design, health tracking tools, fitness features, and useful smart notifications."
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "category": "Programming",
+      "price": 35,
+      "rating": 4.8,
+      "stock": 20,
+      "description": "A practical guide to writing clean, readable, maintainable, and professional software code."
+    },
+    {
+      "id": 2,
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt and David Thomas",
+      "category": "Programming",
+      "price": 40,
+      "rating": 4.9,
+      "stock": 15,
+      "description": "A useful guide for software developers covering programming techniques, problem-solving, and professional development."
+    },
+    {
+      "id": 3,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "category": "Self-Help",
+      "price": 18,
+      "rating": 4.9,
+      "stock": 30,
+      "description": "A book about building good habits, breaking bad habits, and making small improvements every day."
+    },
+    {
+      "id": 4,
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "category": "Finance",
+      "price": 16,
+      "rating": 4.6,
+      "stock": 25,
+      "description": "Explores financial education, money management, investing, and different approaches to building wealth."
+    },
+    {
+      "id": 5,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "category": "Fiction",
+      "price": 14,
+      "rating": 4.7,
+      "stock": 18,
+      "description": "A fictional story about a young shepherd who travels in search of treasure and discovers the importance of following his dreams."
+    },
+    {
+      "id": 6,
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "category": "Productivity",
+      "price": 22,
+      "rating": 4.8,
+      "stock": 22,
+      "description": "Explains how focused, distraction-free work can improve productivity and help people develop valuable skills."
+    },
+    {
+      "id": 7,
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "category": "Personal Development",
+      "price": 15,
+      "rating": 4.5,
+      "stock": 12,
+      "description": "Discusses goal setting, persistence, personal development, and principles associated with achieving success."
+    },
+    {
+      "id": 8,
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen",
+      "category": "Computer Science",
+      "price": 65,
+      "rating": 4.9,
+      "stock": 10,
+      "description": "A comprehensive textbook covering algorithms, data structures, computational complexity, and algorithm design."
+    },
+    {
+      "id": 9,
+      "title": "You Don't Know JS Yet",
+      "author": "Kyle Simpson",
+      "category": "Programming",
+      "price": 28,
+      "rating": 4.7,
+      "stock": 16,
+      "description": "An in-depth JavaScript book series that explores the language fundamentals and advanced concepts."
+    },
+    {
+      "id": 10,
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "category": "Finance",
+      "price": 20,
+      "rating": 4.8,
+      "stock": 28,
+      "description": "Explores how human behavior, emotions, and personal experiences influence financial decisions."
+    },
+    {
+      "id": 11,
+      "title": "1984",
+      "author": "George Orwell",
+      "category": "Science Fiction",
+      "price": 13,
+      "rating": 4.6,
+      "stock": 14,
+      "description": "A dystopian novel exploring surveillance, government control, freedom, and the manipulation of information."
+    },
+    {
+      "id": 12,
+      "title": "Eloquent JavaScript",
+      "author": "Marijn Haverbeke",
+      "category": "Programming",
+      "price": 30,
+      "rating": 4.8,
+      "stock": 19,
+      "description": "A comprehensive introduction to JavaScript programming, covering fundamentals, functions, objects, and browser-based programming."
     }
   ]
 }
