@@ -1,6 +1,7 @@
-
-import React from 'react';
+'use client';
+import React, { use } from 'react';
 import Link from 'next/link';
+import { UserContext } from '../contexts/UserContext';
 
 const BookCard = ({ book }) => {
     const {
@@ -13,6 +14,9 @@ const BookCard = ({ book }) => {
         stock,
         description
     } = book;
+
+    const user = use (UserContext);
+    console.log("context in the bookCard", user);
 
     return (
         <div className="card bg-base-100 shadow-sm">

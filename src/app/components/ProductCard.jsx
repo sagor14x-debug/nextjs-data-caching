@@ -21,37 +21,33 @@
 
 
 
-
-
-import React from 'react';
+"use client";
+import React from "react";
+import useUser from "../hooks/useUser";
 
 const ProductCard = ({ product }) => {
-    const { id, name, description, price, rating } = product;
+  const { id, name, description, price, rating } = product;
+  const user = useUser();
+  console.log("user for context in productCard", user);
 
-    return (
-        <div className="card bg-base-100 shadow-sm">
-            <div className="card-body">
-                <h2 className="card-title">
-                    {name}
-                    <span className="text-sm text-yellow-500">
-                        ⭐ {rating}
-                    </span>
-                </h2>
+  return (
+    <div className="card bg-base-100 shadow-sm">
+      <div className="card-body">
+        <h2 className="card-title">
+          {name}
+          <span className="text-sm text-yellow-500">⭐ {rating}</span>
+        </h2>
 
-                <p>{description}</p>
+        <p>{description}</p>
 
-                <p className="font-bold text-lg">
-                    Price: ${price}
-                </p>
+        <p className="font-bold text-lg">Price: ${price}</p>
 
-                <div className="card-actions justify-end">
-                    <button className="btn btn-primary">
-                        Buy Now
-                    </button>
-                </div>
-            </div>
+        <div className="card-actions justify-end">
+          <button className="btn btn-primary">Buy Now</button>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default ProductCard;
